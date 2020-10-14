@@ -4,6 +4,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 
+user_input = gets.strip
 
 
 def input_to_index(user_input = gets.strip)
