@@ -5,7 +5,7 @@ def input_to_index(user_input)
 end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-player = x
-def move(board, index, player)
+
+def move(board, index, player = "X")
   board[index] = player
 end
