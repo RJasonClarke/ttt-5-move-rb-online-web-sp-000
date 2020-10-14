@@ -4,10 +4,9 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 
-user_input = gets.strip
-number_entered = user_input.to_i - 1
 
-def input_to_index(user_input = gets)
+
+def input_to_index(user_input = gets.strip)
 end
 
 def move(user_input = gets)
