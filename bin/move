@@ -11,7 +11,7 @@ input_to_index(user_input)
 
 
 
-
+display_board()
 
 require_relative '../lib/move.rb'
 
