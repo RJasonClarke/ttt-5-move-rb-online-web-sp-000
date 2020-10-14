@@ -1,4 +1,17 @@
 #!/usr/bin/env ruby
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+puts "Welcome to Tic Tac Toe!"
+puts "Where would you like to go?"
+
+user_input = gets.chomp
+number_entered = user_input.to_i - 1
+
+def input_to_index(user_input = gets)
+end
+
+def move(user_input = gets)
+end
 
 require_relative '../lib/move.rb'
 
