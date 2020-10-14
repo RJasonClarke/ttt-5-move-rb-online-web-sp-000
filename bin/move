@@ -8,12 +8,6 @@ user_input = gets.strip
 
 input_to_index(user_input)
 
-display_board(board)
-
-
-
-
-
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
