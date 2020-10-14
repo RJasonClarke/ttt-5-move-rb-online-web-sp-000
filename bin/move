@@ -10,7 +10,6 @@ input_to_index(user_input)
 
 display_board(board)
 
-play(board)
 
 
 
