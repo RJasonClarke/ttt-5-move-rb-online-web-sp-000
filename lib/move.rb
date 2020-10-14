@@ -6,6 +6,6 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def move(board, index, player = "X")
+def move(board, index, player = x)
   board[index] = player
 end
